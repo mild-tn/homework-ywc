@@ -12,7 +12,7 @@ const Card = ({ merchants }) => {
   return (
     <div className="bg-white border lg:flex font-IMB">
       <div className="p-2">
-        <div className="bg-cover lg:max-w-xs" style={{ minHeight: '14rem', width: '250px', backgroundImage: `url(${merchants.coverImageId})`}} />
+        <div className="bg-cover sm:w-64 lg:max-w-xs" style={{ minHeight: '14rem', backgroundImage: `url(${merchants.coverImageId})`}} />
       </div>
       <div className="flex-1 p-4">
         <div className="text-xl font-semibold text-black">
@@ -51,7 +51,9 @@ const Card = ({ merchants }) => {
             )
           )}
           <div>
-            เมนูแนะนำ:
+            <span className="font-semibold">
+            เมนูแนะนำ: &nbsp;
+            </span>
             <span  dangerouslySetInnerHTML={{ __html: merchants.highlightText || '' }}>
             </span>
           </div>
