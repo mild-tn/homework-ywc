@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@import url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai.css');
+
+@font-face {
+	font-family: 'IBM Plex Sans Thai Normal';
+	src:
+		url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff2')
+		format('woff2'),
+		url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff')
+		format('woff');
+	font-style: normal;
+	font-weight: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'IBM Plex Sans Thai Bold';
+	src:
+		url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff2')
+		format('woff2'),
+		url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff')
+		format('woff');
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+}
+
+#antd-selector-search > div > div {
+	border: none;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.bg-iamge-homepage {
+	background-image: url('/images/result-bg.png');
+	min-height: 100vh;
+	background-size: cover;
+}
+
+
+input::placeholder {
+	@font-face {
+		font-family: 'IBM Plex Sans Thai Normal';
+	}
+
+	@apply font-medium;
+}
