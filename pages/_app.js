@@ -1,4 +1,5 @@
 import '../core/styles/tailwind.css'
+import "antd/dist/antd.css";
 
 import React, { useEffect } from 'react'
 
