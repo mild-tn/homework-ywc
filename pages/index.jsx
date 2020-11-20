@@ -1,5 +1,4 @@
-import Head from "next/head";
-import HomePage from '../components/HomePage'
+import HomePage from '../features/HomePage/index'
 
 export default function Home() {
   return (
