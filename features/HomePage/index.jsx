@@ -43,7 +43,7 @@ export default function Home() {
           <div className="px-4 pt-0 pb-4 md:px-4 md:py-8">
             <div className="flex items-center justify-between mt-0 mb-8">
               <div className="flex-1">
-                <div style={{ letterSpacing: "-0.02em" }} className="mt-0 mb-4 font-sans text-xl font-semibold font-IMB first:mt-0 break-word ">
+                <div style={{ letterSpacing: "" }} className="mt-2 text-xl font-semibold md:mb-4 sm:mb-0 font-IMB first:mt-0 break-word ">
                   ผลการค้นหาทั้งหมด
                 </div>
               </div>
