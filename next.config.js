@@ -11,6 +11,8 @@ module.exports = (phase) => {
   const isStaging = phase === PHASE_PRODUCTION_BUILD && process.env.STAGING === '1'
 
   console.log(`isDev:${isDev}  isProd:${isProd}   isStaging:${isStaging}`)
+  assetPrefix: '/homework-ywc'
+  basePath: '/homework-ywc'
   // next.config.js object
   return {
     publicRuntimeConfig: {
