@@ -1,8 +1,5 @@
-import { Dropdown, Select } from 'antd';
-
 import { AiOutlineSearch } from 'react-icons/ai'
 import DropdownProvince from './DropdownProvince';
-import { FaMapMarkerAlt } from 'react-icons/fa'
 
 export default function Navbar({ provinces }) {
   return (
