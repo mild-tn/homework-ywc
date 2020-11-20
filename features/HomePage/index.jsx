@@ -16,7 +16,7 @@ export default function Home() {
   // const ref = useRef(context)
 
   return useObserver(() => (
-    <div style={{ backgroundImage: 'url(/images/result-bg.png)' }} className="min-h-screen bg-fixed bg-center bg-cover">
+    <div style={{ backgroundImage: 'url(/homework-ywc/images/result-bg.png)' }} className="min-h-screen bg-fixed bg-center bg-cover">
       <div className="bg-white">
         <div className="relative z-20 bg-white">
           <div
